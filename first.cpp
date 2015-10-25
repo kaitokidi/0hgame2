@@ -1,5 +1,6 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+#include <SFML/Audio.hpp>
 #include <iostream>
 #include <cmath>
 #include <stdlib.h>     /* srand, rand */
@@ -18,6 +19,15 @@ float getAngle(sf::Vector2f &orig, sf::Vector2i &des) {
 }
 
 int main(){
+    
+    sf::Music music;
+    if (!music.openFromFile("music.ogg")) {
+        std::cout << "music failed" << std::endl;
+    }
+    music.setLoop(true);         // make it loop
+    // Play it
+    music.play();
+    
     srand (time(NULL));
 
 	//CONSTANT AND 'GLOBAL' VARIABLES

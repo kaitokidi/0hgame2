@@ -6,7 +6,7 @@ first.o: first.cpp
 	g++ -c first.cpp
 	
 everything:
-	g++ -o game first.o -lsfml-graphics -lsfml-window -lsfml-system -lsfml-network
+	g++ -o game first.o -lsfml-graphics -lsfml-window -lsfml-system -lsfml-network -lsfml-audio
 		
 exe:
 	./game
