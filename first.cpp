@@ -50,7 +50,7 @@ int main(){
     positions.push_back(sf::Vector2f(0,0));
     positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
     positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
+//    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
 //     positions.push_back(sf::Vector2f(40,40));
 //     positions.push_back(sf::Vector2f(100,-80));
     
@@ -234,15 +234,19 @@ int main(){
                 playerPosition.y = 300;
                 positions = std::vector < sf::Vector2f > ();
     positions.push_back(sf::Vector2f(0,0));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));    
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));    
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+    positions.push_back(sf::Vector2f((rand()%400)-200,(rand()%400)-200)); 
+            
                 fly = true;
             }else{
                 playerPosition.x = 300;
@@ -250,8 +254,7 @@ int main(){
                 positions = std::vector < sf::Vector2f > ();
     positions.push_back(sf::Vector2f(0,0));
     positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
+    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100)); 
             }
         }
 		//Setting movement variables to 0
