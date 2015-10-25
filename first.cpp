@@ -50,7 +50,7 @@ int main(){
     positions.push_back(sf::Vector2f(0,0));
     positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
     positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
-//    positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
+if(rand()%3 == 0)  positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
 //     positions.push_back(sf::Vector2f(40,40));
 //     positions.push_back(sf::Vector2f(100,-80));
     
@@ -255,6 +255,8 @@ int main(){
     positions.push_back(sf::Vector2f(0,0));
     positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
     positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100)); 
+    if(rand()%3 == 0)  positions.push_back(sf::Vector2f((rand()%200)-100,(rand()%200)-100));
+
             }
         }
 		//Setting movement variables to 0
