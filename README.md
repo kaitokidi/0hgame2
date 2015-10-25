@@ -16,4 +16,6 @@ I made the game using the game of the last year : https://github.com/kaitokidi/0
 
 To use it, you will need SFML libs. If you need to install them For Windows, in Visual studio (http://www.sfml-dev.org/tutorials/2.1/start-vc.php) for Linux users (http://www.sfml-dev.org/tutorials/2.1/start-linux.php), and for MAC OS (http://www.sfml-dev.org/tutorials/2.1/start-osx.php) .
 
+if you SFML just execute "make" and it will compile link and execute <3
+
 ALSO -> check it out www.asciipenguins.webs.com and https://github.com/kaitokidi/0hgame/blob/master/README.md
