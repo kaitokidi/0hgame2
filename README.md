@@ -1,6 +1,6 @@
 OMG SO SWEET
 
-I started this project on October 25th 2015 at 02:00am, and finished it on October 25th 2015 at 02:00am Amazing isn't it? a game made with no time? yup! enjoy it! (for those who are asceptical about it, http://0hgame.eu/)
+I started this project on October 25th 2015 at 02:00am, and finished it on October 25th 2015 at 02:00am. Amazing isn't it? A game made with no time? Yup! Enjoy it! (for those who are sceptical about it, http://0hgame.eu/)
 
 The rules:
 
@@ -16,6 +16,6 @@ I made the game using the game of the last year : https://github.com/kaitokidi/0
 
 To use it, you will need SFML libs. If you need to install them For Windows, in Visual studio (http://www.sfml-dev.org/tutorials/2.1/start-vc.php) for Linux users (http://www.sfml-dev.org/tutorials/2.1/start-linux.php), and for MAC OS (http://www.sfml-dev.org/tutorials/2.1/start-osx.php) .
 
-if you SFML just execute "make" and it will compile link and execute <3
+If you already have SFML just execute "make" and it will compile link and execute <3
 
 ALSO -> check it out www.asciipenguins.webs.com and https://github.com/kaitokidi/0hgame/blob/master/README.md
